@@ -12,7 +12,7 @@ For example, given N = 1041 the function should return 5, because N has binary r
 
 Write an efficient algorithm for the following assumptions:
 
-N is an integer within the range [1..2,147,483,647]. //
+N is an integer within the range [1..2,147,483,647]. //  時間複雜度O(log N)//
 
 def solution(N):
     # 將N轉換成二進制表示，並去掉前面的'0b'
